@@ -1,5 +1,5 @@
 import express from 'express'
-import { BankAccount,account } from '../models/BankAccount.js';
+import { account } from '../models/BankAccount.js';
 import authenticate from '../middleware/authenticate.js';
 
 const router = express.Router();
